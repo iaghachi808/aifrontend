@@ -6,7 +6,7 @@ export default function Register() {
   return (
     <div className="flex min-h-screen bg-dark-bg text-white">
       {/* Visual Hero Side */}
-      <AuthHero image="/images/signup-hero.jpg" />
+      <AuthHero image="/public/images/OIP.webp" />
       
       {/* Form Side */}
       <div className="flex-1 flex flex-col justify-center px-8 md:px-24 lg:px-32 py-12">

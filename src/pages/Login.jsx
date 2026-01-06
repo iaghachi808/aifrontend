@@ -6,7 +6,7 @@ export default function Login() {
   return (
     <div className="flex min-h-screen bg-dark-bg text-white">
       {/* Visual Hero Side */}
-      <AuthHero image="/images/login-hero.jpg" />
+      <AuthHero image="/public/images/female-model-white-tshirt_979387-24.jpg" />
       
       {/* Form Side */}
       <div className="flex-1 flex flex-col justify-center px-8 md:px-24 lg:px-32 py-12">

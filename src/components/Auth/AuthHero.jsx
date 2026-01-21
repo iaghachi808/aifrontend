@@ -4,7 +4,7 @@ import { Shirt } from 'lucide-react';
 export const AuthHero = ({ image }) => (
   <div className="hidden lg:flex w-1/2 relative h-screen sticky top-0">
     <img src={image} alt="Stylist Model" className="absolute inset-0 w-full h-full object-cover" />
-    <div className="absolute inset-0 bg-black/30" /> {/* Overlay for text readability */}
+    <div className="absolute inset-0 bg-black/30" /> {}
     
     <div className="absolute bottom-16 left-16 max-w-md z-10">
       <div className="flex items-center gap-2 mb-6 bg-white/10 backdrop-blur-md px-4 py-2 rounded-lg border border-white/20 w-fit">
